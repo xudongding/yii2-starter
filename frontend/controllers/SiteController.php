@@ -4,12 +4,14 @@ namespace frontend\controllers;
 use yii\web\Controller;
 
 /**
- * 默认站点控制器
+ * Class SiteController 站点控制器
+ * @package frontend\controllers
  */
 class SiteController extends Controller
 {
     /**
      * 默认动作
+     * @return string
      */
     public function actionIndex()
     {

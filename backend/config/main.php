@@ -15,6 +15,9 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'request' => [
+            'cookieValidationKey' => 'fEHa354h8saLsaIV7zABgMj43NUeLkbB',
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
