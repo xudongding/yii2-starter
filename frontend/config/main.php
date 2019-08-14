@@ -8,11 +8,16 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
+    'language' => 'zh-CN',
+    'charset' => 'utf-8',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'frontend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'request' => [
+            'cookieValidationKey' => 'fEHa354h8saLsaIV7zABgMj43NUeLkbB',
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
