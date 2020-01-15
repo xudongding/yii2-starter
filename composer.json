@@ -1,5 +1,5 @@
 {
-    "name": "yii2_starter",
+    "name": "yii2_sample/yii2_starter",
     "type": "project",
     "require": {
         "php": ">=5.6.0",
